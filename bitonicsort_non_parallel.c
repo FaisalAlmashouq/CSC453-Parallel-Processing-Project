@@ -1,4 +1,4 @@
-// Copyright of Faisal Almashouq 444105697 - Non Parallel
+// Copyright of Faisal Almashouq 444105697 - Non Parallel Bitonic sort
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -7,7 +7,7 @@ int load_data(int *data) {
 
     FILE *file = fopen("data/data.txt", "r");
     if (file == NULL) {
-        printf("\nError opening file");
+        printf("\nError with opening file");
         exit(1);
     }
 
