@@ -1,4 +1,4 @@
-// Copyright of Faisal Almashouq 444105697 - Non Parallel
+// Copyright of Faisal Almashouq 444105697 - Non Parallel Bitonic sort
 #include <stdio.h>
 #include <stdlib.h>
 
