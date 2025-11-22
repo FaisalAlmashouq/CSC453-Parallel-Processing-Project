@@ -13,11 +13,19 @@ cl (CUDA kit)
 This tiny piece of information took me 2 hours to learn and understand.
 
 
+
+
 The structure of the project:
-bitonicsort.c -> language c file with no CUDA parallelism
-bitonicsort.cu -> language cu file with CUDA parallelism
+
+bitonicsort.c -> language c file with no CUDA parallelism.
+
+bitonicsort.cu -> language cu file with CUDA parallelism.
+
+
 
 
 bitonicsort.cu:
+
 Host -> loads data from data/data.txt, sends to Device for parallel bitonic merge sort -> recieves sorted data -> prints results.
+
 Device -> recieves unsorted data -> parallel bitonic merge sort -> returns sorted data.
