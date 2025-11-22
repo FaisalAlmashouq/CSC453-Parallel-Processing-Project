@@ -1,4 +1,4 @@
-// Copyright of Faisal Almashouq 444105697
+// Copyright of Faisal Almashouq 444105697 - Non Parallel
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -12,6 +12,8 @@ int load_data(int *data) {
     }
 
     int i = 0, num;
+    printf("Unsored Array:\n");
+    
     while((fscanf(file, "%d", &num) == 1) && (i < 100)) {
         data[i++] = num;
         printf("%d ", num);
