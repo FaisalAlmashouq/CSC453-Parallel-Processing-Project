@@ -14,7 +14,7 @@ int load_data(int *data) {
     int i = 0, num;
     printf("Unsored Array:\n");
     
-    while((fscanf(file, "%d", &num) == 1) && (i < 100)) {
+    while((fscanf(file, "%d", &num) == 1) && (i < 256)) {
         data[i++] = num;
         printf("%d ", num);
     }
